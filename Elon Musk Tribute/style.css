@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    text-align: center;
+    background-image: url("_images/spacex.png");
+    background-size: cover;
+}
+header {
+    background-color: #dddddd;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right:20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.perfil{
+    margin-top: 20%;
+    justify-content: center; 
+    align-items: center;
+    background-color: #ffffff;
+    border: 3px solid black;
+}
+
+.biography {
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.biography p {
+    background-color: rgb(236, 184, 11);
+    padding: 8px;
+    font-size: 14pt;
+    border-radius: 3px;
+}
+
+.timeline {
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #DA7F28;
+    margin-bottom: 5%;
+    text-align: justify;
+} 
+.timeline h2{
+    text-align: center;
+}
+
+tr:nth-child(2n+1){background-color: #f2f2f2;}
+
+
